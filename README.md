@@ -23,5 +23,5 @@ docker run -d --restart always \
   -e MQTT_PASSWORD=abc123 \
   -e TASMOTA_NAME=whatever \
   -e "CRON=0 6,12,18 * * *" \
-  --name tibbergoodwecharge ghcr.io/robertdiers/tasmota-restart:1.0.0
+  --name tasmotarestart ghcr.io/robertdiers/tasmota-restart:1.0.0
 ```
