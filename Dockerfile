@@ -18,8 +18,5 @@ WORKDIR /app
 # give execution rights on the cron job
 RUN chmod 0644 /etc/cron.d/container_cron
 
-# apply cron job
-RUN crontab /etc/cron.d/container_cron
-
 # run the command on container startup
 CMD ["bash", "entrypoint.sh"]
