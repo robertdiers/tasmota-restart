@@ -15,7 +15,7 @@ Environment variables (all can be overridden):
 * MQTT_USER (default: admin)
 * MQTT_PASSWORD (default: password)
 * TASMOTA_NAME (default: tasmota_wasserwerk)
-* CRON (default: tasmota_wasserwerk)
+* CRON (mandatory, no default)
 
 Example:
 ```
